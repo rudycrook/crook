@@ -1,0 +1,47 @@
+/* ======= GLOBAL STYLES  ====== */
+
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:600|Alegreya|Playfair+Display+SC);
+
+/*font-family: 'Playfair Display SC', serif; */
+/*font-family: 'Alegreya Sans', sans-serif; */
+
+html, body {
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    
+}
+
+body {
+    background-color: #F1F1F1;
+    /*font-family: 'Source Sans Pro, Trebuchet MS, sans-serif; if everything using the same font*/
+    /*                               fallback font*/
+    font-size:16px;
+    /*color:aliceblue changes all fonts color*/
+}
+h1, h2, h3{
+        margin:0px;
+        padding:0px;
+        color:#8DC63F; /*LIME GREEN COLOR */
+    }
+p{
+    margin: 15px 0px; /*TOP & BOTTOM  lEFT & RIGHT*/
+}
+
+b, strong {
+    color:#8DC63F;
+}
+a{
+    color: crimson; /*use the # Color*/
+    text-decoration: none;
+}
+a:hover {
+    color:blue; /* choose # color */
+}
+
+#mainWith {
+    width:1200px;
+}
+    
+/* ============= HEADER STYLES ========== */
